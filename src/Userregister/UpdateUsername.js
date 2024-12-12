@@ -29,7 +29,7 @@ function UpdateUsername() {
                 console.log(userupdate);
             if (userupdate.status ==='success') {
                 const status = userupdate.message;
-                Swal.fire({
+                Swal.fire({   
                     title: "Success",
                     text: status,
                     icon: "success",
@@ -61,7 +61,7 @@ function UpdateUsername() {
             console.log(error.data);
         }
     }
-
+// fddgfdgdf
     return (
         <div>
             <Header />
