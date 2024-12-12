@@ -1,0 +1,466 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container-fluid.main-container {
+  padding: 0px;
+}
+img.navbar-logo {
+  width: 100px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
+  text-decoration: none;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  align-items: center;
+}
+.navbar-nav.ms-auto.mb-2.mb-lg-0 .nav-link.login-btn {
+  border: 1px solid cadetblue;
+  padding: 10px 35px;
+  border-radius: 100px;
+}
+
+.navbar-nav.ms-auto.mb-2.mb-lg-0 .nav-link.login-btn:hover {
+  background: cadetblue;
+  color: #fff;
+}
+.App-link {
+  color: #61dafb;
+}
+
+/* //User register form css */
+.form-heading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.form-data{
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+.form-register{
+  display: flex;
+  justify-content: center;
+}
+.user-form {
+  width: 50%;
+  background: #dfdfdf30;
+  font-size: 20px;
+  border: 2px solid rgb(71 68 68);
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+.form-input input{
+ height: 50px;
+}
+.register-button {
+  margin-top: 35px;
+  padding: 12px 25px;
+  font-size: 18px;
+  width: 100%;
+}
+.user-form .home-page-arrow {
+  margin-left: 20px;
+  color: black;
+}
+.user-form .home-page-back-link {
+  display: flex;
+  margin-top: 22px;
+}
+/* //Login form css */
+
+.login-form .form-label {
+  font-weight: 500;
+  margin: 0px;
+}
+.user-login{
+  display: flex;
+  justify-content: center;
+}
+.login-form {
+  border: 2px solid rgb(66, 65, 67);
+  width: 50%;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background: #dfdfdf30;
+  font-size: 20px;
+}
+.login-button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 18px;
+  width: 100%;
+}
+.main-div-user-login .user-login.container {
+  padding: 59px 0px;
+}
+span.register-form.link-page {
+  margin-top: 35px;
+}
+/* //User form Button css */
+
+.user-button {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+.user-form .form-input {
+  margin-top: 20px;
+}
+.user-form .form-label {
+  font-weight: 500;
+  margin: 0px;
+}
+
+
+/* FontAwesome Icon css */
+
+svg.svg-inline--fa.fa-eye.fa-lg {
+  margin-left: 35%;
+  position: absolute;
+  margin-top: -67px;
+  
+}
+svg.svg-inline--fa.fa-eye-slash.fa-lg {
+  margin-left: 35%;
+  position: absolute;
+  margin-top: -67px;
+}
+
+/* //Link Router Css */
+.login-form .link-page {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
+.login-form .register-form.link-page {
+  justify-content: center;
+  
+}
+.user-form .link-page{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.user0-form .register-form.link-page{
+  justify-content: center;
+}
+.form-register.container {
+  padding: 50px 0px;
+}
+/* Home page css start here.. */
+.home-banner-sec {
+  background: cadetblue;
+}
+.all-sec-css {
+  padding: 100px 0px;
+}
+.home-banner-content {
+  display: flex;
+  color: #02084b;
+  padding: 0px 40px;
+  align-items: center;
+}
+.banner-heading {
+  width: 60%;
+}
+.docx-sec {
+  background: #dedede;
+}
+.create-docx-btn {
+  margin-right: 25px;
+}
+
+.docx-col{
+  display: flex;
+  gap: 25px;
+}
+.docx-col {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.card.docx-card {
+  width: 24%;
+}
+section.docx-sec {
+  overflow: scroll;
+  height: 31em;
+  padding: 25px 0px;
+}
+section.docx-sec::-webkit-scrollbar{
+  display: none;
+}
+
+
+/* Home page css end here.. */
+
+/* Dashboard page css end here.. */
+.dashboard-sec .dashboard-col {
+  display: flex;
+  flex-wrap: wrap;
+  height: 35em;
+}
+.dash-sidebar .side-link {
+  margin-top: 40px;
+}
+.dashboard-sec .dash-sidebar {
+  width: 25%;
+  background: #000;
+  color: #ffff;
+}
+.dash-sidebar .sidebar-option {
+  margin-left: 30px;
+}
+.dash-sidebar .user-dashboard {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.dash-sidebar .sidebar-option-list {
+  list-style: none;
+  line-height: 69px;
+  padding: 0;
+}
+.dashboard-sec .show-all-docx {
+  width: 75%;
+  background: #cbcbcb;
+}
+.show-all-docx .docx-content {
+  margin-top: 0px;
+  padding: 15px 30px;
+}
+.dash-sidebar a.user-option-link {
+  text-decoration: none;
+  color: #ffff;
+}
+h2.nav-docx-heading {
+  color: #000;
+}
+/* Footer css here */
+.footer-sec{
+  background: black;
+}
+.footer-content {
+  color: white;
+  
+}
+.footer-sec .footer-img {
+  width: 20%;
+}
+
+.footer-sec .about-address {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.footer-content.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul.link-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.dashboard-sec .side-link {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Docx create page css */
+
+.col-md-12.docx-create-form-col {
+  width: 60%;
+  border-radius: 10px;
+  padding: 30px 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.row.docx-create-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.row.docx-create-form h4.craete-docx-heading {
+  text-align: center;
+  margin: 0px 0px 37px 0px;
+}
+
+.docx-create-form .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: blue;
+  outline: 0;
+  box-shadow: none;
+}
+
+.docx-create-form .create-docx-btn{
+
+  margin-top: 20px;
+}
+.docx-container .create-docx-action-btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.docx-sec .svg-inline--fa.fa-download.fa-xl {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+/* search bar css */
+.docx-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.show-all-docx input.search-bar {
+  height: 35px;
+  padding: 22px;
+  border-radius: 5px;
+  outline: unset;
+  border: none;
+}
+
+.home-banner-img {
+  text-align: center;
+  width: 40%;
+}
+.home-banner-img img {
+  width: 80%;
+}
+
+.home-banner-content .banner-heading h1 {
+  line-height: 60px;
+}
+.home-banner-content .banner-heading p {
+  line-height: 30px;
+  font-size: 18px;
+}
+.home-banner-content .banner-btn {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+.home-banner-content .banner-btn .show-docx-btn {
+  padding: 15px;
+  width: 22%;
+  border-radius: 100px;
+  font-size: 17px;
+}
+
+/* User profile css */
+li.user-subitem.user-name {
+  border-bottom: 1px solid #cfcaca;
+}
+.user-dropdown li.user-subitem.user-logout {
+  cursor: pointer;
+}
+ul.user-profile-list li {
+  padding: 0px 15px;
+}
+ul.user-profile-list{
+  padding: 0px;
+}
+.user-dropdown .user-subitem.user-link:hover {
+  background: aliceblue;
+}
+.nav-link.user-profile {
+  position: relative;
+  border: 1px solid red;
+  background: red;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 100px;
+  width: 51px;
+  height: 51px;
+  text-align: center;
+  top: 5px;
+}
+.user-profile-list {
+  display: none;
+  position: absolute;
+  background: #fff;
+  right: 0px;
+  width: 160px;
+  list-style: none;
+  margin-right: 110px;
+  line-height: 49px;
+}
+li.user-subitem.user-link.my-account a {
+  color: #000;
+}
+.user-dropdown .user-profile-list li {
+  cursor: pointer;
+}
+.user-dropdown .user-profile-list .user-name {
+  pointer-events: none;
+  font-weight: 600;
+}
+.user-dropdown .user-profile-list .user-name::first-letter {
+  text-transform: uppercase;
+  
+}
+.user-dropdown:hover .user-profile-list {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 1;
+}
+.user-dropdown .user-profile-icon {
+  margin-right: 8px;
+}
+.dash-sidebar .dashboard-sidebar-icon {
+  margin-right: 5px;
+}
+
+.dashboard-docx-not-found{
+  text-align: center;
+  margin-top: 150px;
+
+}
+.dashboard-docx-not-found .not_found_docx {
+  color: #c5c7c7;
+}
